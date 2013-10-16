@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <!-- <chemet.version>1.3-SNAPSHOT</chemet.version> -->
+        <cdk.version>1.4.15</cdk.version>
+        <mdk.version>1.4.1-SNAPSHOT</mdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <netbeans.hint.license>lgpl30_EMBL</netbeans.hint.license>
+    </properties>
+
+    <groupId>NCBIWebServices</groupId>
+    <artifactId>NCBIWebServices</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>EUtils</module>
+        <module>PubChem</module>
+    </modules>
+
+
+</project>
