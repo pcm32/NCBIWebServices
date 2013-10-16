@@ -12,7 +12,7 @@
         <netbeans.hint.license>lgpl30_EMBL</netbeans.hint.license>
     </properties>
 
-    <groupId>NCBIWebServices</groupId>
+    <groupId>uk.ac.ebi.cheminformatics.ncbiwebservices</groupId>
     <artifactId>NCBIWebServices</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -20,6 +20,23 @@
         <module>EUtils</module>
         <module>PubChem</module>
     </modules>
+
+    <repositories>
+        <repository>
+            <id>maven-repo</id>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>ebi-repo</id>
+            <name>EBI maven repository</name>
+            <url>http://www.ebi.ac.uk/~maven/m2repo</url>
+        </repository>
+        <repository>
+            <id>ebi-repo-snapshots</id>
+            <name>EBI maven snapshots repository</name>
+            <url>http://www.ebi.ac.uk/~maven/m2repo_snapshots</url>
+        </repository>
+    </repositories>
 
 
 </project>
