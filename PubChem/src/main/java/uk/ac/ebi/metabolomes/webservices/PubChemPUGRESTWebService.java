@@ -21,7 +21,7 @@ public class PubChemPUGRESTWebService extends NCBIJerseyBasedWebService {
     private static final Logger LOGGER = Logger.getLogger(PubChemPUGRESTWebService.class);
     private Client client;
 
-    private final String baseURL = "http://uk.ac.ebi.metabolomes.webservices.pubchem.ncbi.nlm.nih.gov/rest/pug/";
+    private final String baseURL = "http://pubchem.ncbi.nlm.nih.gov/rest/pug/";
 
     public enum PubChemDomains {
         assay;
