@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>NCBIWebServices</groupId>
+            <groupId>uk.ac.ebi.cheminformatics.ncbiwebservices</groupId>
             <artifactId>EUtils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
