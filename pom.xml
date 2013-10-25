@@ -21,6 +21,16 @@
         <module>PubChem</module>
     </modules>
 
+    <build>
+    <extensions>
+        <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-ssh</artifactId>
+            <version>2.2</version>
+        </extension>
+    </extensions>
+    </build>
+
     <repositories>
         <repository>
             <id>maven-repo</id>
@@ -38,5 +48,17 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>cimr-repo</id>
+            <name>CIMR Repository</name>
+            <url>${cimr.repo.deploy.url}</url>
+        </repository>
+        <snapshotRepository>
+            <id>cimr-repo-snapshots</id>
+            <name>CIMR Snapshots Repository</name>
+            <url>${cimr.repo.snapshots.deploy.url}</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
